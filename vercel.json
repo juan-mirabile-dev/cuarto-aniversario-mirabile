@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    {"source": "/(.*)", "destination": "/my-project/src/main.jsx"}
+    {"source": "/(.*)", "destination": "/my-project/index.html"}
   ]
 }
