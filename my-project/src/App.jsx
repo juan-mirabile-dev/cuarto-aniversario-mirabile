@@ -2,48 +2,73 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header'
+import SectionTitle from './components/SectionTitle'
+import Members from './components/Members'
 
 export default function App() {
   return (
     <>
-      <div className='mb-5 text-start h-8'>
-        <img src="logo_mirabile.png" alt="logo" className='h-full'/>
-      </div>
-      <div className="grid grid-cols-1">
-        <div className="text-start text font-bold mb-2">Cuarto aniversario mirabile</div>
-      </div>
+      <Header />
+      <SectionTitle content="Concierto del Cuarto Aniversario de Mirabile." />
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         <div class="w-full h-64 overflow-hidden">
           <img className="w-full h-full object-cover" src="https://placehold.co/160x90" alt="Placeholder Image" />
         </div>
         <div className="text-start">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate nisi nihil eligendi maiores dolore earum,
-          quia ipsum libero accusantium molestias! Alias tempora soluta dolore id nam ipsam sunt nesciunt quas.
+          Han pasado cuatro años desde la fundación de Mirabile como ensamble coral, años en los que ustedes nos han impulsado a llegar cada vez más lejos.
+          Por ello, nos complace compartir que estamos próximos a celebrar nuestro cuarto aniversario.
+          Y qué mejor manera de hacerlo que haciendo lo que mejor sabemos: cantar.
+          En este concierto, interpretaremos dos obras reconocidas de la música clásica: el Concierto para Viola en Do menor, H. 104 de Carl Philipp Emanuel Bach
+          y el "Gloria in D major, RV 589" de Antonio Vivaldi.
+          <br />
+          <br />
+          Y tu, Ya tienes tus boletos?
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-start">
-        <div className='mb-2'>
-          <p className="font-bold text-lg">Coro</p>
-          <ul>
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-            <li>item 4</li>
-            <li>item 5</li>
-          </ul>
+      <Members/>
+
+      <div className="mt-16 grid grid-cols-3 gap-4">
+        <div className="col-span-full">
+          <p className='mb-8 text-lg font-bold'>Siguenos en redes sociales</p>
         </div>
-        <div className='mb-2'>
-          <ul>
-            <p className="font-bold text-lg">Camerata</p>
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-            <li>item 4</li>
-            <li>item 5</li>
-          </ul>
+        <div className="text-center">
+          <div className='mb-8 flex items-center justify-center h-16'>
+            <img
+              src="png/Facebook_icon.png"
+              alt="Facebook_icon"
+              className='h-full transition-transform duration-300 transform hover:scale-110'
+              onClick={() => window.location.href = "https://www.facebook.com/mirabile.ags?locale=es_LA"}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
+        </div>
+        <div className="text-center">
+          <div className='mb-8 flex items-center justify-center h-16'>
+            <img
+              src="png/Instagram_icon.png"
+              alt="Instagram_icon"
+              className='h-full transition-transform duration-300 transform hover:scale-110'
+              onClick={() => window.location.href = "https://www.instagram.com/mirabile_ensamblecoral/"}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
+        </div>
+        <div className="text-center">
+          <div className='mb-8 flex items-center justify-center h-16'>
+            <img
+              src="png/TikTok_icon.png"
+              alt="TikTok_icon"
+              className='h-full transition-transform duration-300 transform hover:scale-110'
+              onClick={() => window.location.href = "https://www.tiktok.com/@mirabile_ensamble_coral?is_from_webapp=1&sender_device=pc"}
+              style={{ cursor: 'pointer' }}
+            />
+          </div>
         </div>
       </div>
+
     </>
   )
 }
