@@ -14,7 +14,7 @@ export default function App() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         <div class="w-full h-64 overflow-hidden">
-          <img className="w-full h-full object-cover" src="https://placehold.co/160x90" alt="Placeholder Image" />
+          <img className="w-full h-full object-cover" src="png/mirabile_img_test.png" alt="Placeholder Image" />
         </div>
         <div className="text-start">
           Han pasado cuatro años desde la fundación de Mirabile como ensamble coral, años en los que ustedes nos han impulsado a llegar cada vez más lejos.
