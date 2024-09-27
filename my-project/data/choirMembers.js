@@ -11,29 +11,30 @@ const choirMembers = {
         "Aranza Michelle Rojas Esparza",
         "Areli Guadalupe Pedroza Quiroz",
         "Daphne Anelisse Carrillo Castorena",
+        "Hannah Gabriela Ortiz Ruiz",
         "Itayetzi Carrillo Castorena",
+        "Norma Angélica Guerrero Meza",
         "Sonia Viridiana González Gallardo",
         "Zita Alejandra Figueroa Aguado",
-        "Norma Angélica Guerrero Meza"
     ],
 
     "tenores": [
         "Gabriel Emmanuel Herrera Salazar",
         "Ismael Quetzalcóatl Alcalá Alférez",
-        "Juan Pablo Hernández Ramírez",
         "Joshua Uzziel Rojas Esparza",
+        "Juan Pablo Hernández Ramírez",
         "Luis Raúl Ortiz Domínguez",
         "Pablo Daniel Regalado Valdez"
     ],
 
     "bajos": [
+        "Alexis Daniel Esparza Quintero",
         "Daniel de los Santos Villalobos",
         "Eduardo David Gutiérrez Carreón",
         "Jorge Francisco Hernández Ramírez",
         "José Luis Montoya Herrada",
         "José Manuel Montoya Herrada",
-        "Julian Antonio Chávez Montoya",
-        "Alexis Daniel Esparza Quintero"
+        "Julian Antonio Chávez Montoya"
     ]
 }
 
