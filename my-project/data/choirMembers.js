@@ -15,7 +15,7 @@ const choirMembers = {
         "Itayetzi Carrillo Castorena",
         "Norma Angélica Guerrero Meza",
         "Sonia Viridiana González Gallardo",
-        "Zita Alejandra Figueroa Aguado",
+        "Zita Alejandra Figueroa Aguado"
     ],
 
     "tenores": [

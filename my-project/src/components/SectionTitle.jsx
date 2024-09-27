@@ -6,4 +6,4 @@ const SectionTitle = ({content}) => {
     );
 }
 
-export default SectionTitle;z
+export default SectionTitle;
