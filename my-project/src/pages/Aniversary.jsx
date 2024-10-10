@@ -26,7 +26,7 @@ const Aniversary = () => {
 
             <div className="mt-16 grid grid-cols-3 gap-4">
                 <div className="col-span-full">
-                    <p className='mb-8 text-lg font-bold'>Siguenos en redes sociales</p>
+                    <p className='mb-8 md:text-lg text-base font-bold'>Siguenos en redes sociales</p>
                 </div>
                 <div className="text-center">
                     <div className='mb-8 flex items-center justify-center h-16'>

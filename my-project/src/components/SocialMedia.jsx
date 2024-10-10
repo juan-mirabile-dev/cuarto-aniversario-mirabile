@@ -3,7 +3,7 @@ const SocialMedia = () => {
         <>
             <div className="mt-8 grid lg:grid-cols-3 grid-cols-1 lg:px-0 px-4 gap-4">
                 <div className="col-span-full text-start">
-                    <p className='mb-2 text-lg font-bold'>Siguenos en redes sociales</p>
+                    <p className='mb-2 md:text-lg text:base font-bold'>Siguenos en redes sociales</p>
                 </div>
 
                 <div className="grid grid-cols-[auto_1fr] p-4 bg-inst-card">
