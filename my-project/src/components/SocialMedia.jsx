@@ -18,13 +18,14 @@ const SocialMedia = () => {
                     </div>
 
                     <div className='text-start ps-4'>
-                        <p className="font-bold">Mirabile Ensamble Coral</p>
-                        <p className="text-muted">Facebook</p>
+                        <p className="md:text-base text-sm font-bold">Mirabile Ensamble Coral</p>
+                        <p className="md:text-base text-sm text-muted">Facebook</p>
                     </div>
 
                     <div className='text-start col-span-full grid grid-cols-2 m-0 lg:mt-4'>
                         <div className="hidden lg:block col-span-1 text-xl font-bold">393</div>
                         <div className="hidden lg:block col-span-1 text-xl font-bold"></div>
+
                         <div className="hidden lg:block col-span-1 text-muted">Seguidores</div>
                         <div className="hidden lg:block col-span-1 text-muted"></div>
                     </div>
@@ -43,13 +44,14 @@ const SocialMedia = () => {
                     </div>
 
                     <div className='text-start ps-4'>
-                        <p className="font-bold">mirabile_ensamblecoral</p>
-                        <p className="text-muted">Instagram</p>
+                        <p className="md:text-base text-sm font-bold">mirabile_ensamblecoral</p>
+                        <p className="md:text-base text-sm text-muted">Instagram</p>
                     </div>
 
                     <div className='text-start col-span-full grid grid-cols-2 m-0 lg:mt-4'>
                         <div className="hidden lg:block col-span-1 text-xl font-bold">115</div>
                         <div className="hidden lg:block col-span-1 text-xl font-bold">18</div>
+
                         <div className="hidden lg:block col-span-1 text-muted">Seguidores</div>
                         <div className="hidden lg:block col-span-1 text-muted">Posts</div>
                     </div>
@@ -68,15 +70,16 @@ const SocialMedia = () => {
                     </div>
 
                     <div className='text-start ps-4'>
-                        <p className="font-bold">mirabile_ensamble_coral</p>
-                        <p className="text-muted">TikTok</p>
+                        <p className="md:text-base text-sm font-bold">mirabile_ensamble_coral</p>
+                        <p className="md:text-base text-sm text-muted">TikTok</p>
                     </div>
 
                     <div className='text-start col-span-full grid grid-cols-2 m-0 lg:mt-4'>
                         <div className="hidden lg:block col-span-1 text-xl font-bold">45</div>
                         <div className="hidden lg:block col-span-1 text-xl font-bold">9</div>
-                        <div className="hidden lg:block col-span-1 text-muted">Seguidores</div>
-                        <div className="hidden lg:block col-span-1 text-muted">Posts</div>
+
+                        <div className="hidden lg:block col-span-1 text-base text-sm text-muted">Seguidores</div>
+                        <div className="hidden lg:block col-span-1 text-base text-sm text-muted">Posts</div>
                     </div>
                 </div>
 

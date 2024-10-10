@@ -11,7 +11,7 @@ const About = () => {
 
         <div className="text-start">
           {text.map((text, index) => (
-            <div key={index} className="text-base mb-3">
+            <div key={index} className="md:text-base text-sm mb-3">
               {text}
             </div>
           ))}

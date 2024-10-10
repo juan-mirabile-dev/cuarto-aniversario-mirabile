@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <>
-            <nav className="bg-inst-base">
+            <nav className="bg-inst-card">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" className="flex items-start space-x-3 rtl:space-x-reverse">
                         <img src="/png/logo_mirabile.png" className="h-8" alt="Logo" />
