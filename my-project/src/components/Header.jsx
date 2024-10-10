@@ -78,17 +78,17 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about" onClick={toggleSidebar} className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
+                                <Link to="/about" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
                                     Sobre nosotros
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/contact" onClick={toggleSidebar} className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
+                                <Link to="/contact" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
                                     Contacto
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/events" onClick={toggleSidebar} className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
+                                <Link to="/events" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
                                     Eventos
                                 </Link>
                             </li>

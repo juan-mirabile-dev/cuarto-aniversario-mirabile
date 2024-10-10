@@ -1,13 +1,15 @@
+import TitleSection from "./TitleSection";
+
 const SocialMedia = () => {
     return (
         <>
             <div className="mt-8 grid lg:grid-cols-3 grid-cols-1 lg:px-0 px-4 gap-4">
                 <div className="col-span-full text-start">
-                    <p className='mb-2 md:text-lg text:base font-bold'>Siguenos en redes sociales</p>
+                    <TitleSection content="Síguenos en redes sociales" />
                 </div>
 
                 <div
-                    className="grid grid-cols-[auto_1fr] p-4 bg-inst-card"
+                    className="grid grid-cols-[auto_1fr] p-4 bg-inst-card rounded-md"
                     onClick={() => window.location.href = "https://www.facebook.com/mirabile.ags?locale=es_LA"}
                     style={{ cursor: 'pointer' }}
                 >
@@ -34,7 +36,7 @@ const SocialMedia = () => {
                 </div>
 
                 <div
-                    className="grid grid-cols-[auto_1fr] p-4 bg-inst-card"
+                    className="grid grid-cols-[auto_1fr] p-4 bg-inst-card rounded-md"
                     onClick={() => window.location.href = "https://www.instagram.com/mirabile_ensamblecoral/"}
                     style={{ cursor: 'pointer' }}
                 >
@@ -61,7 +63,7 @@ const SocialMedia = () => {
                 </div>
 
                 <div
-                    className="grid grid-cols-[auto_1fr] p-4 bg-inst-card"
+                    className="grid grid-cols-[auto_1fr] p-4 bg-inst-card rounded-md"
                     onClick={() => window.location.href = "https://www.tiktok.com/@mirabile_ensamble_coral?is_from_webapp=1&sender_device=pc"}
                     style={{ cursor: 'pointer' }}
                 >

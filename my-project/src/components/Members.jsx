@@ -4,7 +4,7 @@ import camerataMembers from '../../data/camerataMembers.js';
 const Members = () => {
     return (
         <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4 text-start">
-            <div className='mb-2 bg-neutral-900 rounded-md p-4'>
+            <div className='mb-2 bg-inst-card rounded-md p-4'>
                 <p className="font-bold text-md">Integrantes del coro</p>
                 <ul>
                     {Object.entries(choirMembers).map(([voicePart, members]) => (
@@ -19,7 +19,7 @@ const Members = () => {
                     ))}
                 </ul>
             </div>
-            <div className='mb-2 bg-neutral-900 rounded-md p-4'>
+            <div className='mb-2 bg-inst-card rounded-md p-4'>
                 <p className="font-bold text-md">Integrantes de la camerata</p>
                 <ul>
                     {Object.entries(camerataMembers).map(([instrumentPart, members]) => (
