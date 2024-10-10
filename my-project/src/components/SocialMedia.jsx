@@ -33,7 +33,6 @@ const SocialMedia = () => {
                     </div>
                 </div>
 
-
                 <div
                     className="grid grid-cols-[auto_1fr] p-4 bg-inst-card"
                     onClick={() => window.location.href = "https://www.instagram.com/mirabile_ensamblecoral/"}
@@ -60,7 +59,6 @@ const SocialMedia = () => {
                         <div className="hidden lg:block col-span-1 text-muted">Posts</div>
                     </div>
                 </div>
-
 
                 <div
                     className="grid grid-cols-[auto_1fr] p-4 bg-inst-card"
