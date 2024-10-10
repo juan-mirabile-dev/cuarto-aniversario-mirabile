@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "institutional" : "#121212",
+        "inst-base" : "#121212",
+        "inst-card" : "#171717",
         "base" : "#FFFFFF",
         "muted" : "#C2C2C2"
       }

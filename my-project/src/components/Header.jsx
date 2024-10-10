@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <>
-            <nav className="bg-institutional">
+            <nav className="bg-inst-base">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" className="flex items-start space-x-3 rtl:space-x-reverse">
                         <img src="/png/logo_mirabile.png" className="h-8" alt="Logo" />
@@ -30,6 +30,11 @@ const Header = () => {
                             <li>
                                 <Link to="/contact" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                                     Contact us
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/events" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
+                                    Events
                                 </Link>
                             </li>
                         </ul>

@@ -1,29 +1,29 @@
 const camerataMembers = {
-    "violines I": [
+    "Violines I": [
         "Jimena López López",
         "Miguel Aarón Ramírez Sánchez"
     ],
-    "violines II": [
+    "Violines II": [
         "José Ramón Armas Chávez",
         "Odette Carrillo Castorena"
     ],
-    "violas": [
+    "Violas": [
         "Mayra Patricia Moreno Hernández",
         "Luis Enrique Padilla Medina"
     ],
-    "cello": [
+    "Violonchelo": [
         "Juan David Muñoz Ramírez"
     ],
-    "contrabajo": [
+    "Contrabajo": [
         "Luis Israel García Ávila"
     ],
-    "oboe": [
+    "Oboe": [
         "Vinicio Jafet Domínguez Esparza"
     ],
-    "trompeta": [
+    "Trompeta": [
         "Juan Manuel Jaime López"
     ],
-    "teclado": [
+    "Pianista": [
         "Luis Eduardo Celaya Ortega"
     ]
 };

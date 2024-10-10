@@ -2,7 +2,7 @@ const choirMembers = {
     "sopranos": [
         "Dara Raquel Correa Regalado",
         "Hevelinne Elizabeth Jacobo Zamora",
-        "Lucero Ochoa Medina",
+        "Lucero de María Ochoa Medina",
         "Michelle Alejandra Acevedo Dávila",
         "Yunanci Chávez Montoya"
     ],
