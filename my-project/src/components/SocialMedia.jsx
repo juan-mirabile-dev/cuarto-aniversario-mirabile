@@ -22,11 +22,11 @@ const SocialMedia = () => {
                         <p className="text-muted">Facebook</p>
                     </div>
 
-                    <div className='text-start col-span-full grid grid-cols-2 mt-4'>
-                        <div className="col-span-1 text-xl font-bold">393</div>
-                        <div className="col-span-1 text-xl font-bold"></div>
-                        <div className="col-span-1 text-muted">Seguidores</div>
-                        <div className="col-span-1 text-muted"></div>
+                    <div className='text-start col-span-full grid grid-cols-2 m-0 lg:mt-4'>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold">393</div>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold"></div>
+                        <div className="hidden lg:block col-span-1 text-muted">Seguidores</div>
+                        <div className="hidden lg:block col-span-1 text-muted"></div>
                     </div>
                 </div>
 
@@ -47,11 +47,11 @@ const SocialMedia = () => {
                         <p className="text-muted">Instagram</p>
                     </div>
 
-                    <div className='text-start col-span-full grid grid-cols-2 mt-4'>
-                        <div className="col-span-1 text-xl font-bold">115</div>
-                        <div className="col-span-1 text-xl font-bold">18</div>
-                        <div className="col-span-1 text-muted">Seguidores</div>
-                        <div className="col-span-1 text-muted">Posts</div>
+                    <div className='text-start col-span-full grid grid-cols-2 m-0 lg:mt-4'>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold">115</div>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold">18</div>
+                        <div className="hidden lg:block col-span-1 text-muted">Seguidores</div>
+                        <div className="hidden lg:block col-span-1 text-muted">Posts</div>
                     </div>
                 </div>
 
@@ -72,11 +72,11 @@ const SocialMedia = () => {
                         <p className="text-muted">TikTok</p>
                     </div>
 
-                    <div className='text-start col-span-full grid grid-cols-2 mt-4'>
-                        <div className="col-span-1 text-xl font-bold">45</div>
-                        <div className="col-span-1 text-xl font-bold">9</div>
-                        <div className="col-span-1 text-muted">Seguidores</div>
-                        <div className="col-span-1 text-muted">Posts</div>
+                    <div className='text-start col-span-full grid grid-cols-2 m-0 lg:mt-4'>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold">45</div>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold">9</div>
+                        <div className="hidden lg:block col-span-1 text-muted">Seguidores</div>
+                        <div className="hidden lg:block col-span-1 text-muted">Posts</div>
                     </div>
                 </div>
 
