@@ -91,7 +91,7 @@ const SocialMedia = () => {
 
                 <div
                     className="grid grid-cols-[auto_1fr] p-4 bg-inst-card rounded-md"
-                    onClick={() => window.location.href = "https://www.tiktok.com/@mirabile_ensamble_coral?is_from_webapp=1&sender_device=pc"}
+                    onClick={() => window.location.href = "https://www.youtube.com/@mirabile_ensamble_coral"}
                     style={{ cursor: 'pointer' }}
                 >
                     <div className='text-start'>
