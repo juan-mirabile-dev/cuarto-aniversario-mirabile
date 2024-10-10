@@ -3,7 +3,7 @@ import TitleSection from "./TitleSection";
 const SocialMedia = () => {
     return (
         <>
-            <div className="mt-8 grid lg:grid-cols-3 grid-cols-1 lg:px-0 px-4 gap-4">
+            <div className="mt-8 grid lg:grid-cols-4 grid-cols-1 lg:px-0 px-4 gap-4">
                 <div className="col-span-full text-start">
                     <TitleSection content="Síguenos en redes sociales" />
                 </div>
@@ -88,6 +88,33 @@ const SocialMedia = () => {
                         <div className="hidden lg:block col-span-1 text-base text-sm text-muted">Posts</div>
                     </div>
                 </div>
+
+                <div
+                    className="grid grid-cols-[auto_1fr] p-4 bg-inst-card rounded-md"
+                    onClick={() => window.location.href = "https://www.tiktok.com/@mirabile_ensamble_coral?is_from_webapp=1&sender_device=pc"}
+                    style={{ cursor: 'pointer' }}
+                >
+                    <div className='text-start'>
+                        <img
+                            src="png/YouTube_icon.png"
+                            alt="YouTube_icon"
+                            className='h-16 transition-transform duration-300 transform hover:scale-110'
+                        />
+                    </div>
+
+                    <div className='text-start ps-4'>
+                        <p className="md:text-base text-sm font-bold">MIRABILE</p>
+                        <p className="md:text-base text-sm text-muted">YouTube</p>
+                    </div>
+
+                    <div className='text-start col-span-full grid grid-cols-2 m-0 lg:mt-4'>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold">34</div>
+                        <div className="hidden lg:block col-span-1 text-xl font-bold">7</div>
+
+                        <div className="hidden lg:block col-span-1 text-base text-sm text-muted">Seguidores</div>
+                        <div className="hidden lg:block col-span-1 text-base text-sm text-muted">Posts</div>
+                    </div>
+                </div>  
 
             </div>
         </>

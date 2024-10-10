@@ -14,7 +14,7 @@ const Events = () => {
                 <div className="bg-inst-card rounded-md p-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                         <div className="w-full h-64 overflow-hidden">
-                            <img className="w-full h-full object-cover" src="png/mirabile_img_test.png" alt="Placeholder Image" />
+                            <img className="w-full h-full object-cover" src="png/mirabile_img.png" alt="Placeholder Image" />
                         </div>
                         <div className="text-start">
                             {text.map((text, index) => (
