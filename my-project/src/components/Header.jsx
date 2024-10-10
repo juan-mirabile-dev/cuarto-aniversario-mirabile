@@ -47,22 +47,22 @@ const Header = () => {
                         </div>
                         <ul className="flex flex-col p-4 space-y-4">
                             <li>
-                                <Link to="/" className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
+                                <Link to="/" onClick={toggleSidebar} className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
                                     Inicio
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about" className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
+                                <Link to="/about" onClick={toggleSidebar} className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
                                     Sobre nosotros
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/contact" className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
+                                <Link to="/contact" onClick={toggleSidebar} className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
                                     Contacto
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/events" className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
+                                <Link to="/events" onClick={toggleSidebar} className="block py-2 text-muted hover:text-base rounded hover:bg-inst-card">
                                     Eventos
                                 </Link>
                             </li>
@@ -73,22 +73,22 @@ const Header = () => {
                     <div className="hidden w-full md:block md:w-auto" id="navbar-multi-level">
                         <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                             <li>
-                                <Link to="/" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0" aria-current="page">
+                                <Link to="/" className=" onClick={toggleSidebar}block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0" aria-current="page">
                                     Inicio
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
+                                <Link to="/about" onClick={toggleSidebar} className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
                                     Sobre nosotros
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/contact" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
+                                <Link to="/contact" onClick={toggleSidebar} className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
                                     Contacto
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/events" className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
+                                <Link to="/events" onClick={toggleSidebar} className="block py-2 px-3 text-muted hover:text-base rounded hover:bg-inst-card md:hover:bg-transparent md:border-0 md:p-0">
                                     Eventos
                                 </Link>
                             </li>
