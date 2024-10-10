@@ -9,6 +9,7 @@ const Events = () => {
             <div className="rounded-md mt-8 mb-2">
                 <TitleSection content="Concierto del Cuarto Aniversario de Mirabile." />
             </div>
+            {/* for update */}
             <div className="bg-neutral-900 rounded-md p-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                     <div className="w-full h-64 overflow-hidden">
